@@ -33,30 +33,30 @@ void Bubble::shower(double shampoo_amount) {
 }
 
 void Bubble::play() {
-  std::cout<<"Playing...";
+  std::cout << "Playing...";
   return;
 }
 
-void Bubble::thirsty(){
-    if(statistics["Satiation"] > 0){
-        statistics["Satiation"] -= 10;
-    }
+void Bubble::thirsty() {
+  if (statistics["Satiation"] > 0) {
+    statistics["Satiation"] -= 10;
+  }
 }
 
-void Bubble::bored(){
-    if(statistics["Excitement level"] > 0){
-        statistics["Excitement level"] -= 10;
-    }
+void Bubble::bored() {
+  if (statistics["Excitement level"] > 0) {
+    statistics["Excitement level"] -= 10;
+  }
 }
 
-void Bubble::dirty(){
-    if(statistics["Cleanliness"]){
-        statistics["Cleanliness"] -= 10;
-    }
+void Bubble::dirty() {
+  if (statistics["Cleanliness"]) {
+    statistics["Cleanliness"] -= 10;
+  }
 }
 
-void Bubble::hungry(){
-    if(statistics["Fullness"] > 10){
-        statistics["Fullness"] -= 10;
-    }
+void Bubble::hungry() {
+  if (statistics["Fullness"] > 10) {
+    statistics["Fullness"] -= 10;
+  }
 }
