@@ -17,9 +17,9 @@ public:
   void shower(double shampoo_amount);
   void get_food(double food_amount);
   void play();
-  void hungry();
-  void thirsty();
-  void bored();
-  void dirty();
+  bool hungry();
+  bool thirsty();
+  bool bored();
+  bool dirty();
   friend std::ostream &operator<<(std::ostream &os, const Bubble &bubble);
 };

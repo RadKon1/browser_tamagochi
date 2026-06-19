@@ -37,26 +37,38 @@ void Bubble::play() {
   return;
 }
 
-void Bubble::thirsty() {
+bool Bubble::thirsty() {
   if (statistics["Satiation"] > 0) {
     statistics["Satiation"] -= 10;
   }
+  else{
+    return true;
+  }
 }
 
-void Bubble::bored() {
+bool Bubble::bored() {
   if (statistics["Excitement level"] > 0) {
     statistics["Excitement level"] -= 10;
   }
-}
-
-void Bubble::dirty() {
-  if (statistics["Cleanliness"]) {
-    statistics["Cleanliness"] -= 10;
+  else{
+    return true;
   }
 }
 
-void Bubble::hungry() {
+bool Bubble::dirty() {
+  if (statistics["Cleanliness"]) {
+    statistics["Cleanliness"] -= 10;
+  }
+  else{
+    return true;
+  }
+}
+
+bool Bubble::hungry() {
   if (statistics["Fullness"] > 10) {
     statistics["Fullness"] -= 10;
+  }
+  else{
+    return true;
   }
 }
