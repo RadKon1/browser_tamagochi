@@ -12,7 +12,6 @@ add_executable(main
     src/bubble.cpp
     src/player.cpp
     include/constants.h
-    include/timer.h
     src/timer.cpp
 )
 
