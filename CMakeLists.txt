@@ -11,6 +11,7 @@ add_executable(main
     include/bubble.h
     src/bubble.cpp
     src/player.cpp
+    include/constants.h
 )
 
 target_include_directories(main PRIVATE headers)

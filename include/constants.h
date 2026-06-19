@@ -1,0 +1,1 @@
+using Money = unsigned int;
