@@ -10,7 +10,7 @@ bool Player::feedBubble(double foodAmount) {
   if (foodAmount < 0) {
     return false;
   }
-  bubble.feed(foodAmount);
+  bubble.get_food(foodAmount);
   return true;
 }
 
@@ -18,7 +18,7 @@ bool Player::satiateBubble(double beerAmount) {
   if (beerAmount < 0) {
     return false;
   }
-  bubble.drink(beerAmount);
+  bubble.get_beer(beerAmount);
   return true;
 }
 
@@ -28,7 +28,7 @@ bool Player::setBubbleName(std::string newName) {
       return false;
     }
   }
-  bubble.setName(newName);
+  bubble.set_name(newName);
   return true;
 }
 
