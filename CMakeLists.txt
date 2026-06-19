@@ -13,6 +13,7 @@ add_executable(main
     src/player.cpp
     include/constants.h
     include/timer.h
+    include/main_app.h
 )
 
 target_include_directories(main PRIVATE headers)
