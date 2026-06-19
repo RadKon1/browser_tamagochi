@@ -12,7 +12,7 @@ add_executable(main
     src/bubble.cpp
     src/player.cpp
     include/constants.h
-    src/timer.cpp
+    include/timer.h
 )
 
 target_include_directories(main PRIVATE headers)
