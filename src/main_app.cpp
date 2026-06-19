@@ -9,6 +9,7 @@ App::App(Player &p, Bubble &b) : player(p), bubble(b) {
   foodT
       .setFunc([&]() {
         bubble.hungry();
+        std::cout << "hungry test";
         foodT.restart();
       })
       ->setInterval(10000)
@@ -17,6 +18,7 @@ App::App(Player &p, Bubble &b) : player(p), bubble(b) {
   beerT
       .setFunc([&]() {
         bubble.thirsty();
+        std::cout << "beer test";
         beerT.restart();
       })
       ->setInterval(10000)
@@ -25,6 +27,7 @@ App::App(Player &p, Bubble &b) : player(p), bubble(b) {
   boredomT
       .setFunc([&]() {
         bubble.bored();
+        std::cout << "bored test";
         boredomT.restart();
       })
       ->setInterval(10000)
@@ -33,6 +36,7 @@ App::App(Player &p, Bubble &b) : player(p), bubble(b) {
   showerT
       .setFunc([&]() {
         bubble.dirty();
+        std::cout << "dirty test";
         showerT.restart();
       })
       ->setInterval(10000)
