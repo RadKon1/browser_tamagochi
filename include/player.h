@@ -1,6 +1,6 @@
 #include "../include/bubble.h"
 #include "constants.h"
-#include <memory>
+#include <ostream>
 #include <string>
 
 class Player {
@@ -23,4 +23,6 @@ public:
   bool cleanBubble(double shampooAmount);
 
   bool setBubbleName(std::string newName);
+  friend std::ostream &operator<<(std::ostream &os, Player &p);
+  friend std::istream &operator>>(std::istream &is, Player &p);
 };
