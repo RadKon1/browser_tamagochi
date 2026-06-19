@@ -1,0 +1,3 @@
+/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build/CMakeFiles/team_project_with_sofuszka.dir
+/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build/CMakeFiles/edit_cache.dir
+/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build/CMakeFiles/rebuild_cache.dir
