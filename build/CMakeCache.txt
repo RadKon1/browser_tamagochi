@@ -151,7 +151,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=team_project_with_sofuszka
+CMAKE_PROJECT_NAME:STATIC=Cpp26Project
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -235,6 +235,15 @@ CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeD
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+Cpp26Project_BINARY_DIR:STATIC=/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build
+
+//Value Computed by CMake
+Cpp26Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Cpp26Project_SOURCE_DIR:STATIC=/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka
 
 //Value Computed by CMake
 team_project_with_sofuszka_BINARY_DIR:STATIC=/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build
