@@ -6,7 +6,7 @@
 class Bubble {
 private:
   std::string name;
-  std::unordered_map<std::string, double> statistics;
+  std::unordered_map<std::string, int> statistics;
 
 public:
   Bubble();
