@@ -177,6 +177,30 @@ src/bubble.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/bubble.cpp.s
 .PHONY : src/bubble.cpp.s
 
+src/main_app.o: src/main_app.cpp.o
+.PHONY : src/main_app.o
+
+# target to build an object file
+src/main_app.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main_app.cpp.o
+.PHONY : src/main_app.cpp.o
+
+src/main_app.i: src/main_app.cpp.i
+.PHONY : src/main_app.i
+
+# target to preprocess a source file
+src/main_app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main_app.cpp.i
+.PHONY : src/main_app.cpp.i
+
+src/main_app.s: src/main_app.cpp.s
+.PHONY : src/main_app.s
+
+# target to generate assembly for a file
+src/main_app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main_app.cpp.s
+.PHONY : src/main_app.cpp.s
+
 src/player.o: src/player.cpp.o
 .PHONY : src/player.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/bubble.o"
 	@echo "... src/bubble.i"
 	@echo "... src/bubble.s"
+	@echo "... src/main_app.o"
+	@echo "... src/main_app.i"
+	@echo "... src/main_app.s"
 	@echo "... src/player.o"
 	@echo "... src/player.i"
 	@echo "... src/player.s"

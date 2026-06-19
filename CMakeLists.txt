@@ -14,6 +14,7 @@ add_executable(main
     include/constants.h
     include/timer.h
     include/main_app.h
+    src/main_app.cpp
 )
 
 target_include_directories(main PRIVATE headers)

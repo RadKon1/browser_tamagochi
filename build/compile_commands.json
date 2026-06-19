@@ -16,5 +16,11 @@
   "command": "/usr/bin/c++  -I/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/headers -g -std=c++2b -arch arm64 -o CMakeFiles/main.dir/src/player.cpp.o -c /Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/player.cpp",
   "file": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/player.cpp",
   "output": "CMakeFiles/main.dir/src/player.cpp.o"
+},
+{
+  "directory": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build",
+  "command": "/usr/bin/c++  -I/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/headers -g -std=c++2b -arch arm64 -o CMakeFiles/main.dir/src/main_app.cpp.o -c /Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/main_app.cpp",
+  "file": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/main_app.cpp",
+  "output": "CMakeFiles/main.dir/src/main_app.cpp.o"
 }
 ]

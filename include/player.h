@@ -1,3 +1,4 @@
+#pragma once
 #include "../include/bubble.h"
 #include "constants.h"
 #include <ostream>
