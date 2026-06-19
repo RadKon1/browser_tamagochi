@@ -1,26 +1,26 @@
 [
 {
-  "directory": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build",
-  "command": "/usr/bin/c++  -I/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/headers -g -std=c++2b -arch arm64 -o CMakeFiles/main.dir/main.cpp.o -c /Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/main.cpp",
-  "file": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/main.cpp",
+  "directory": "/home/sofya/c++/browser_tamagochi/build",
+  "command": "/usr/bin/g++  -I/home/sofya/c++/browser_tamagochi/headers -g -std=c++23 -o CMakeFiles/main.dir/main.cpp.o -c /home/sofya/c++/browser_tamagochi/main.cpp",
+  "file": "/home/sofya/c++/browser_tamagochi/main.cpp",
   "output": "CMakeFiles/main.dir/main.cpp.o"
 },
 {
-  "directory": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build",
-  "command": "/usr/bin/c++  -I/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/headers -g -std=c++2b -arch arm64 -o CMakeFiles/main.dir/src/bubble.cpp.o -c /Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/bubble.cpp",
-  "file": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/bubble.cpp",
+  "directory": "/home/sofya/c++/browser_tamagochi/build",
+  "command": "/usr/bin/g++  -I/home/sofya/c++/browser_tamagochi/headers -g -std=c++23 -o CMakeFiles/main.dir/src/bubble.cpp.o -c /home/sofya/c++/browser_tamagochi/src/bubble.cpp",
+  "file": "/home/sofya/c++/browser_tamagochi/src/bubble.cpp",
   "output": "CMakeFiles/main.dir/src/bubble.cpp.o"
 },
 {
-  "directory": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build",
-  "command": "/usr/bin/c++  -I/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/headers -g -std=c++2b -arch arm64 -o CMakeFiles/main.dir/src/player.cpp.o -c /Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/player.cpp",
-  "file": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/player.cpp",
+  "directory": "/home/sofya/c++/browser_tamagochi/build",
+  "command": "/usr/bin/g++  -I/home/sofya/c++/browser_tamagochi/headers -g -std=c++23 -o CMakeFiles/main.dir/src/player.cpp.o -c /home/sofya/c++/browser_tamagochi/src/player.cpp",
+  "file": "/home/sofya/c++/browser_tamagochi/src/player.cpp",
   "output": "CMakeFiles/main.dir/src/player.cpp.o"
 },
 {
-  "directory": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/build",
-  "command": "/usr/bin/c++  -I/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/headers -g -std=c++2b -arch arm64 -o CMakeFiles/main.dir/src/main_app.cpp.o -c /Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/main_app.cpp",
-  "file": "/Users/Nigel/studia/WAKACJE2026/team_project_with_sofuszka/src/main_app.cpp",
+  "directory": "/home/sofya/c++/browser_tamagochi/build",
+  "command": "/usr/bin/g++  -I/home/sofya/c++/browser_tamagochi/headers -g -std=c++23 -o CMakeFiles/main.dir/src/main_app.cpp.o -c /home/sofya/c++/browser_tamagochi/src/main_app.cpp",
+  "file": "/home/sofya/c++/browser_tamagochi/src/main_app.cpp",
   "output": "CMakeFiles/main.dir/src/main_app.cpp.o"
 }
 ]
